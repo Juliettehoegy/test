@@ -1,0 +1,81 @@
+/* header */
+header{
+  background-color: pink;
+}
+
+/*menu-nav*/
+nav.menu-nav ul{
+  background-color: red;
+}
+
+nav.menu-nav ul li.btn{
+  list-style: none;
+  display: inline-block;
+}
+nav.menu-nav ul li.btn a{
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px;
+  transition: 3s;
+}
+nav.menu-nav ul li.btn:hover a{
+  background-color: white;
+  color: blue;
+  transition: 4s color;
+}
+/*menu-nav*/
+
+/* div content */
+div#content{
+  background-color: black;
+}
+div#content div{
+  display: inline-block;
+  width: 49%;
+}
+
+div#content div h3,p, iframe{
+  margin: 20px;
+}
+/* leftbox */
+div#content div.leftbox{
+  vertical-align: top;
+  background-color: cyan;
+}
+/* annonce */
+div#content div.annonce{
+  background-color: green;
+  width: 100%;
+  margin: 8px;
+}
+/* annonce */
+/* leftbox */
+
+/* rightbox */
+div#content div.rightbox{
+  background-color: yellow;
+
+}
+/* rightbox */
+/* div content */
+
+/* footer */
+footer{
+  background-color: pink;
+}
+
+/*p.welcome{
+  color: #e42c64;
+  background-color: #f2f4f6;
+}
+
+p.test{
+  color: #f2f4f6;
+}
+
+body{
+  background-color: #bbded6;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}*/
